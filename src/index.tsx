@@ -40,7 +40,7 @@ export default function Command() {
         <List.Item
           key={index}
           title={port.localAddress}
-          subtitle={`PID (${port.pid})`}
+          subtitle={`PID: ${port.pid}`}
           accessories={port.processName ? [{ text: port.processName }] : []}
           actions={
             <ActionPanel>
