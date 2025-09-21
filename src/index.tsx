@@ -58,8 +58,8 @@ export default function Command() {
                 onAction={refreshPorts}
                 icon={Icon.ArrowClockwise}
                 shortcut={{
-                  windows: { modifiers: ["ctrl", "shift"], key: "l" },
-                  macOS: { modifiers: ["cmd", "shift"], key: "l" },
+                  windows: { modifiers: ["ctrl", "shift"], key: "r" },
+                  macOS: { modifiers: ["cmd", "shift"], key: "r" },
                 }}
               />
               <Action.CopyToClipboard content={port.processName || ""} title="Copy Name Process" />
